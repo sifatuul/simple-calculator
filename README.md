@@ -4,7 +4,8 @@ This is a **simple and modern calculator** built using **HTML, CSS, and JavaScri
 
 ## Preview
 
-![Calculator Preview](https://via.placeholder.com/600x400)  
+![image](https://github.com/user-attachments/assets/bdfb6921-c1ff-4734-9c01-c3f47d3c1330)
+
 *Light and Dark Mode of Calculator UI*
 
 ## Features
@@ -40,7 +41,8 @@ This is a **simple and modern calculator** built using **HTML, CSS, and JavaScri
 
 ## Screenshot
 
-![Calculator Screenshot](https://via.placeholder.com/600x400)  
+![image](https://github.com/user-attachments/assets/5a4d4b9d-25e0-4155-b1de-c3b73808053e)
+
 *The calculator in action*
 
 ## Contributing
