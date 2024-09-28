@@ -1,0 +1,128 @@
+/* General calculator styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f6a955;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.calculator {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  height: 100px;
+  text-align: right;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.display .operation {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.display .result {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button colors */
+.button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.equals {
+  background-color: #f68c1f;
+  color: white;
+}
+
+.operator {
+  background-color: #4d4d4d;
+  color: white;
+}
+
+/* Light mode */
+.light-mode {
+  background-color: #f4f4f4;
+}
+
+.light-mode .display {
+  color: black;
+}
+
+.light-mode .button {
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-mode .equals {
+  background-color: #f68c1f;
+  color: white;
+}
+
+.light-mode .operator {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #2d2d2d;
+}
+
+.dark-mode .button {
+  background-color: #333333;
+  color: white;
+}
+
+.dark-mode .operator {
+  background-color: #444444;
+  color: white;
+}
+
+.dark-mode .equals {
+  background-color: #f68c1f;
+  color: white;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #f68c1f;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #f69039;
+}
